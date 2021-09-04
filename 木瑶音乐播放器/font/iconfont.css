@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 2761646 */
+  src: url('iconfont.woff2?t=1629680883788') format('woff2'),
+       url('iconfont.woff?t=1629680883788') format('woff'),
+       url('iconfont.ttf?t=1629680883788') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-gedan:before {
+  content: "\e66a";
+}
+
+.icon-bofangyinle:before {
+  content: "\e626";
+}
+
+.icon-shipinbofangqixilietubiao-:before {
+  content: "\e601";
+}
+
+.icon-tianjiayinle:before {
+  content: "\e7f0";
+}
+
+.icon-gedan1:before {
+  content: "\e600";
+}
+
+.icon-shanchuyinle:before {
+  content: "\e699";
+}
+
+.icon-wode:before {
+  content: "\e602";
+}
+
+.icon-gedan2:before {
+  content: "\e603";
+}
+
+.icon-shipinbofangyingpian:before {
+  content: "\e604";
+}
+
+.icon-bianjiqiicon0921_bofangyinlefuben:before {
+  content: "\e717";
+}
+
+.icon-tianjiayinle1:before {
+  content: "\e642";
+}
+
+.icon-wode4-copy:before {
+  content: "\e605";
+}
+

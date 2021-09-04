@@ -1,0 +1,93 @@
+{
+  "id": "2761646",
+  "name": "木瑶player",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "5618760",
+      "name": "歌单",
+      "font_class": "gedan",
+      "unicode": "e66a",
+      "unicode_decimal": 58986
+    },
+    {
+      "icon_id": "6790697",
+      "name": "播放音乐",
+      "font_class": "bofangyinle",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "8371683",
+      "name": "视频播放器系列图标",
+      "font_class": "shipinbofangqixilietubiao-",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "12501161",
+      "name": "添加音乐",
+      "font_class": "tianjiayinle",
+      "unicode": "e7f0",
+      "unicode_decimal": 59376
+    },
+    {
+      "icon_id": "12553221",
+      "name": "歌单",
+      "font_class": "gedan1",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "14031358",
+      "name": "删除音乐",
+      "font_class": "shanchuyinle",
+      "unicode": "e699",
+      "unicode_decimal": 59033
+    },
+    {
+      "icon_id": "15165034",
+      "name": "我 的 (3)",
+      "font_class": "wode",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "16135382",
+      "name": "歌单",
+      "font_class": "gedan2",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "16650828",
+      "name": "视频 播放 影片",
+      "font_class": "shipinbofangyingpian",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "17383577",
+      "name": "播放音乐",
+      "font_class": "bianjiqiicon0921_bofangyinlefuben",
+      "unicode": "e717",
+      "unicode_decimal": 59159
+    },
+    {
+      "icon_id": "18064289",
+      "name": "添加音乐",
+      "font_class": "tianjiayinle1",
+      "unicode": "e642",
+      "unicode_decimal": 58946
+    },
+    {
+      "icon_id": "21097282",
+      "name": "我 的 (4)",
+      "font_class": "wode4-copy",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    }
+  ]
+}

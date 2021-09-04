@@ -1,0 +1,196 @@
+body,
+ul,
+dl,
+dd {
+  margin: 0px;
+  padding: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font/iconfont.woff2') format('woff2'),
+         url('../font/iconfont.woff') format('woff'),
+         url('../font/iconfont.ttf') format('truetype');
+  }
+
+
+.wrap {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../images/cover5.jpg") no-repeat;
+  background-size: 100% 100%;
+}
+
+.play_wrap {
+  width: 800px;
+  height: 544px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin-left: -400px;
+  margin-top: -272px;
+  /* background-color: #f9f9f9; */
+}
+
+.search_bar {
+  height: 60px;
+  background-color: #1eacda;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 11;
+}
+
+.search_bar_1 i{
+    font-family:  'iconfont';
+    font-style: normal;
+    font-size: 40px;
+    color:white;
+    text-decoration: none;
+
+}
+.search_bar span {
+  margin-left: 23px;
+  color: white;
+}
+
+.search_bar input {
+  margin-right: 23px;
+  width: 296px;
+  height: 34px;
+  border-radius: 17px;
+  border: 0px;
+  background: url("../images/zoom.png") 265px center no-repeat
+    rgba(255, 255, 255, 0.45);
+  text-indent: 15px;
+  outline: none;
+}
+
+.center_con {
+  height: 435px;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  position: relative;
+}
+
+.song_wrapper {
+  width: 200px;
+  height: 435px;
+  box-sizing: border-box;
+  padding: 10px;
+  list-style: none;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+}
+
+.song_stretch {
+  width: 600px;
+}
+
+.song_list {
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.song_list::-webkit-scrollbar {
+  display: none;
+}
+
+.song_list li {
+  font-size: 12px;
+  color: #333;
+  height: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 580px;
+  padding-left: 10px;
+}
+
+.song_list li:hover {
+  background-color: rgba(240, 240, 240, 0.3);
+}
+.active{
+    background-color: rgba(240, 240, 240, 0.3);
+}
+.song_list li a {
+  display: block;
+  width: 17px;
+  height: 17px;
+  font-family:  'iconfont';
+  font-size: 16px;
+  margin-right: 5px;
+  color: rgb(55, 222 ,55);
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.song_list li b {
+  font-weight: normal;
+  width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-right: 22px;
+}
+
+.song_stretch .song_list li b {
+  width: 200px;
+}
+
+.song_stretch .song_list li em {
+  width: 150px;
+}
+
+.song_list li span {
+  width: 23px;
+  height: 17px;
+  margin-right: 50px;
+}
+
+.song_list li .song_list_1 i{
+     display: block;
+     width: 17px;
+     height: 17px;
+     line-height: 17px;
+     cursor: pointer;
+     font-family:  'iconfont';
+     font-style: normal;
+     font-size: 12px;
+     margin-right: -40px;
+     color: rgb(55, 222 ,55);
+     text-decoration: none;
+     box-sizing: border-box;
+   }
+.song_list li span>i {
+  display: block;
+  width: 17px;
+  height: 17px;
+  cursor: pointer;
+  font-family:  'iconfont';
+  font-style: normal;
+  font-size: 16px;
+  transform: translate(-22px,0);
+  color: rgb(55, 222 ,55);
+  text-decoration: none;
+  box-sizing: border-box;
+  /* background: url("../images/table.png") left -48px no-repeat; */
+}
+
+.song_list li em {
+  font-style: normal;
+  width: 100px;
+}
