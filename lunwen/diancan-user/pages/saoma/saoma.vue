@@ -1,0 +1,15 @@
+<template>
+	
+</template>
+
+<script>
+</script>
+
+<style>
+page{
+	background-image: url('https://diancan-1308361593.cos.ap-shanghai.myqcloud.com/diancan/15.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+</style>

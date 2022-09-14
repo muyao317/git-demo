@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "木瑶私房菜",
+  "navigationBarTextStyle": "white",
+  "navigationBarBackgroundColor": "#4CCE61",
+  "usingComponents": {
+    "cart": "/pages/home-page/components/shopping-cart",
+    "details": "/pages/home-page/components/goods-details",
+    "home": "/pages/skeleton-view/home"
+  }
+}
